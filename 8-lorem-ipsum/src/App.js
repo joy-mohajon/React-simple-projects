@@ -11,8 +11,8 @@ function App() {
     if (amount < 0) {
       amount = 1;
     }
-    if (amount > 8) {
-      amount = 8;
+    if (amount > 11) {
+      amount = 11;
     }
     const newText = data.slice(0, amount);
     setText(newText);
